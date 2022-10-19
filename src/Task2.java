@@ -1,7 +1,7 @@
 public class Task2 {
     public static void main(String[] args) {
         float floatName = 27.12F;
-        long longName = 987678965549L;
+        long longName = 987_678_965_549L;
         double doubleName = 2.786;
         boolean booleanName = false;
         short shortName = 569;
