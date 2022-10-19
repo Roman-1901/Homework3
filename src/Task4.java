@@ -5,9 +5,11 @@ public class Task4 {
         int limitOneMinute = limit/limitTimeMinute; //высчитываем, сколько будет производится штук в одну минуту, исходя из вводных данных
         int limitDay = limitOneMinute * 60*24; //высчитваем в сутки
         int limitMonth = limitDay * 30; //высчитываем в месяц из рассчета 30 дней
-        System.out.println("За 20 минут машина произвела бутылок " + limitOneMinute * 20 +" штук");
+        int limitTwentyMinutes = limitOneMinute * 20; // за 20 минут
+        int limitThreeDays = limitDay * 3; //за 3 дня
+        System.out.println("За 20 минут машина произвела бутылок " + limitTwentyMinutes +" штук");
         System.out.println("В сутки машина произвела бутылок " + limitDay +" штук");
-        System.out.println("За три дня машина произвела бутылок " + limitDay * 3 +" штук");
+        System.out.println("За три дня машина произвела бутылок " + limitThreeDays +" штук");
         System.out.println("За месяц машина произвела бутылок " + limitMonth +" штук");
     }
 }
