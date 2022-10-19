@@ -10,6 +10,5 @@ public class Task8 {
         System.out.println("Маша теперь получает "+newMasha+" рублей. Годовой доход вырос на "+(newMasha*12-Masha*12)+" рублей");
         System.out.println("Денис теперь получает "+newDen+" рублей. Годовой доход вырос на "+(newDen*12-Den*12)+" рублей");
         System.out.println("Кристина теперь получает "+newKris+" рублей. Годовой доход вырос на "+(newKris*12-Kris*12)+" рублей");
-        System.out.println(newMasha);
     }
 }
