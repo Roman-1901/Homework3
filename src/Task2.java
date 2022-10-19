@@ -1,6 +1,6 @@
 public class Task2 {
     public static void main(String[] args) {
-        float floatName = 27.12F;
+        float floatName = 27.12f;
         long longName = 987_678_965_549L;
         double doubleName = 2.786;
         boolean booleanName = false;

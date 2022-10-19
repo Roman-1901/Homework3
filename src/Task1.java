@@ -4,7 +4,7 @@ public class Task1 {
         byte byteName = 125;
         short shortName = 15687;
         long longName = 456897982;
-        float floatName = 445.88F;
+        float floatName = 445.88f;
         double doubleName = 226.984755;
         System.out.println("Значение переменной intName с типом int равно " + intName);
         System.out.println("Значение переменной byteName с типом byte равно " + byteName);
