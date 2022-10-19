@@ -8,7 +8,7 @@ public class Task4 {
         int limitTwentyMinutes = limitOneMinute * 20; // за 20 минут
         int limitThreeDays = limitDay * 3; //за 3 дня
         System.out.println("За 20 минут машина произвела бутылок " + limitTwentyMinutes +" штук");
-        System.out.println("В сутки машина произвела бутылок " + limitDay +" штук");
+        System.out.println("За сутки машина произвела бутылок " + limitDay +" штук");
         System.out.println("За три дня машина произвела бутылок " + limitThreeDays +" штук");
         System.out.println("За месяц машина произвела бутылок " + limitMonth +" штук");
     }
